@@ -1,0 +1,44 @@
+Recap:
+
+Topics:
+
+  callback function ---> a function which is used an arguement to another function to execute a set of statements
+
+  async operations execution 
+    Eg: setTimout, setInterval
+  
+  async operations are put into a queue after the wait time/ or completion of action.
+  then js grabs them from the queue for execution
+
+  advantages of callback
+    1. Modularity
+    2. Reusability
+    3. Readablity
+
+  disadvantage of callback
+    callback hell
+  
+  Promise: 
+    Promise Object - completion or failure of an async operation
+    States:
+      pending: initial state, neither fulfilled nor rejected.
+      fulfilled: meaning that the operation was completed successfully.
+      rejected: meaning that the operation failed. with a reason
+    
+    Accessing Values or Fullfill/Reject:
+      then ---> executed when promise is Fullfilled
+      catch ---> executed when promise is rejected
+      finally for final statements irrespective fulfilled/reject 
+    
+    Promise Chain:
+      Chaining of fullfilled promise with help of then block 
+      Any error in the chain will break the chain and will caught in catch block 
+  
+    disadvantage of Promise: 
+      Too much of Chaining leads to uncertain behavior
+
+    
+
+
+
+
